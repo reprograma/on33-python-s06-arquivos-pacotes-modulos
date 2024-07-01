@@ -1,11 +1,12 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## Filmes
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
----
+Na planilha Filmes.csv temos alguns filmes e as notas que os usuário deram para cada um deles. 
+
+Crie uma nova tabela com a média de cada filme e quantas pessoas assistiram aquele filme. Além disso encontre o nome do filme com a maior média.
+
+Não esqueça de remover as duplicatas.
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
