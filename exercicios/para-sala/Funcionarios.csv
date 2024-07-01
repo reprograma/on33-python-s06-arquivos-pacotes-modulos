@@ -1,0 +1,16 @@
+Nome Funcionario,Sobrenome,Salario,Idade,Sabe inglês
+Joao,Dias,8000,35,Sim
+Maria,Torres,8000,32,Sim
+Pedro,Souza,5000,35,Não
+Sara,Silva,5000,29,Não
+Ana,Santos,3000,23,Sim
+Lucas,Pereira,8000,35,Não
+Joana,Oliveira,6000,28,Sim
+Clara,Machado,8000,29,Sim
+,,,,
+Calcular Média dos salarios,,,,
+Calcular Menor salário,,,,
+Qual a idade da Sara?,,,,
+Qual o nome inteiro da Ana?,,,,
+Quantos funcionarios sabem ingles?,,,,
+"Escrever uma coluna é senior, que tera as opções, senior por idade se tiver mais do que 31 anos e senior por salario se ganhar mais do que 7000.",,,,
