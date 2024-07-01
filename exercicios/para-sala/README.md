@@ -1,11 +1,16 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## Funcionários
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
----
+Na nossa planilha de funcionários iremos obter alguns dados:
+
+-Calcular Média dos salários
+-Calcular Menor salário
+-Qual a idade da Sara?
+-Qual o nome inteiro da Ana?
+-Quantos funcionarios sabem ingles?
+-Escrever uma coluna é senior, que tera as opções, senior por idade se tiver mais do que 31 anos e senior por salario se ganhar mais do que 7000.
+
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
