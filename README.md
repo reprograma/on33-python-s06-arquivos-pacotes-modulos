@@ -94,6 +94,7 @@ Iremos aprender a carregar e escrever em uma planilha com o python e o módulo C
 ### Material da aula 
 
 ### Links Úteis
+- [Planilha para ser usada na aula - Alunos](https://docs.google.com/spreadsheets/d/1frE0FyyEdgyPXyk34iIeyRQqZUnKphlBHhxQ1ZjqTwY/copy)
 - [Lista de funções do Google Sheets](https://support.google.com/docs/table/25273?hl=pt-BR)
 - [Documentação do módulo CSV no python](https://docs.python.org/pt-br/3/library/csv.html)
 
