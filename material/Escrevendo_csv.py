@@ -22,7 +22,7 @@ tiver dentro, mesmo se ocorrer um erro durante a execução do bloco de código.
     2. se o arquivo é de leitura ou escrita
     3. o enconding utf-8 para trabalharmos com acentos'''
 
-with open('Temperatura.csv', 'w', encoding="UTF-8") as csvfile: #csvfile é o apelido que criamos para usar o nosso arquivo
+with open('Temperatura.csv', 'w', encoding="UTF-8", newline='') as csvfile: #csvfile é o apelido que criamos para usar o nosso arquivo
     
     escritor = csv.writer(csvfile)  
 #Usamos a função csv writer para criar nosso escritor
