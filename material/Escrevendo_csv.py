@@ -1,5 +1,7 @@
-import csv
+import csv #importamos o modulo do python para trabalhar com csv
 
+
+#a lista novas_temperaturas contém os dados que queremos inserir no nosso csv
 novas_temperaturas = [    
     ['10', '10', '25', 'Sim'],
     ['11', '10', '22', 'Não'],
@@ -12,22 +14,22 @@ novas_temperaturas = [
     ['18', '10', '27', 'Sim']
 ]
 
-with open('Temperatura.csv', 'w') as csvfile:
-    escritor = csv.writer(csvfile)
-    escritor.writerow(['dia', 'mês', 'temperatura', 'chuva'])
-    escritor.writerows(novas_temperaturas)
-
-
-'''importamos o modulo do python para trabalhar com csv'''
-
 '''usamos o with para usar um arquivo e fechar esse arquivo quando terminar o que 
 tiver dentro, mesmo se ocorrer um erro durante a execução do bloco de código. '''
 
 '''na função open passamos
     1. o caminho do arquivo, 
-    2. se o arquivo é de leitura ou escrita'''
+    2. se o arquivo é de leitura ou escrita
+    3. o enconding utf-8 para trabalharmos com acentos'''
 
-'''Esta parte da linha cria um apelido (ou referência) chamado csvfile que 
-será usado para se referir ao arquivo aberto dentro do bloco with'''
+with open('Temperatura.csv', 'w', encoding="UTF-8") as csvfile: #csvfile é o apelido que criamos para usar o nosso arquivo
+    
+    escritor = csv.writer(csvfile)  
+#Usamos a função csv writer para criar nosso escritor
 
-'''Usamos a função csv writer para escrever em cada linha do arquivo'''
+    escritor.writerow(['dia', 'mês', 'temperatura', 'chuva'])
+#usamos a funcao writerow para escrever uma linha no arquivo, nesse caso nosso cabeçalho
+
+    escritor.writerows(novas_temperaturas)
+#usamos a função write rows para escrever várias linhas no arquivo
+
