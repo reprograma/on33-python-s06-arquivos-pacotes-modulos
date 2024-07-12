@@ -1,4 +1,4 @@
-## S09 - Lidando com arquivos, pacotes e módulos
+## Lidando com arquivos, pacotes e módulos
 
 **OBS: Sempre acompanhar as partes do código com prática síncrona**
 **OBS: Lembrar de: oferecer um dicionário para alunas com eventuais traduções importantes no contexto da aula. Elas já devem usar e conhecer o google translate, mas enfatizar que o seu uso pode ajudar no entendimento da lógica da aula.**
